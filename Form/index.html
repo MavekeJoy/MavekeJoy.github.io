@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSPITAL FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+    <img src="hand pic.png" alt="hand pic">
+    <h1>MEDICAL FORM</h1>
+    <div class="Patient Form">
+        <h2>PATIENT INFORMATION</h2>
+        <label>FULL NAME :</label>
+        <input type="text" name="FULL NAME"><br>
+        <label>DATE OF BIRTH :</label>
+        <input type="date" name="DATE OF BIRTH">
+        <label>GENDER :</label>
+        <input type="radio" value="MALE ">
+        <label for="MALE ">MALE</label>
+        <input type="radio" value="FEMALE ">
+        <label for="FEMALE">FEMALE</label>
+        <input type="radio" value="OTHER">
+        <label for="OTHER">OTHER</label><br>
+        <label>ADDRESS :</label>
+        <input type="text" name="ADDRESS">
+        <label>ZIP CODE :</label>
+        <input type="text" name="ZIP CODE"><br>
+        <label>PHONE NUMBER :</label>
+        <input type="text" name="PHONE NUMBER" >
+        <label>EMAIL :</label>
+        <input type="text" name="EMAIL">
+    </div>
+    <div class="Medical History">
+        <h2>MEDICAL HISTORY</h2>
+        <p>Kindly check any of the following conditions that apply to you:</p>
+        <input type="checkbox" value="Allergies">
+        <label for="Allergies">Allergies</label>
+        <input type="checkbox" value="Family Medical History">
+        <label for="Family Medical History">Family Medical History</label><br>
+        <input type="checkbox" value="Chronic Illnesses">
+        <label for="Chronic Illnesses">Chronic Illnesses</label>
+        <input type="checkbox" value="Any Medication">
+        <label for="Any Medication">Any Medication</label><br>
+        <input type="checkbox" value="Previous Surgeries">
+        <label for="Previous Surgeries">Previous Surgeries</label> 
+        <input type="checkbox" value="Other Conditions">
+        <label for="Other Conditions">Other Conditions</label>   
+    </div>
+    <div class="Reason to Visit">
+        <h2>REASON TO VISIT</h2>
+        <p>Describe the reason for visit or any visible symptoms :</p>
+        <textarea name="message"></textarea>
+    </div>
+    <div class="Insurance">
+        <h2>INSURANCE INFORMATION</h2>
+        <label>Insurance Provider :</label>
+        <input type="text" name="Insurance Provider">
+        <label>Policy Number :</label>
+        <input type="text" name="Policy Number">
+    </div>
+    <div class="Emergency">
+        <h2>EMERGENCY CONTACT</h2>
+        <label>Full Name :</label>
+        <input type="text" name="Full Name"><br>
+        <label>Phone Number :</label>
+        <input type="text" name="Phone Number">
+        <label>Email :</label>
+        <input type="text" name="Email">
+    </div>
+        <input class="button" type="submit" value="Submit">
+    
+    </form>
+</body>
+</html>

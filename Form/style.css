@@ -1,0 +1,43 @@
+
+body{
+    background-color:lightblue;
+    margin: 100px;
+    padding: 50px;
+    font-size: large;
+}
+img{
+    float: inline-end;
+    width: 15%;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    text-decoration: underline;
+}
+input[type=text] {
+    width: 40%;
+    padding:12px 20px ;
+    margin: 8px 0;
+    box-sizing:border-box;
+    box-shadow: inset;
+  }
+  div{
+    padding: 50px;
+    line-height: 4em;
+  }
+  p{
+    font-size: x-large;
+  }
+  .Medical History{
+    font-size: x-large;
+  }
+  input[class=button]{
+    width: 150px;
+    height: 50px;
+    background-color:cadetblue;
+    cursor: pointer;
+    float: inline-end;
+
+  }
+  

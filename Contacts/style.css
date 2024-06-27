@@ -1,0 +1,43 @@
+body{
+    background-color:aliceblue;
+    font-size: larger;
+}
+img{
+    width: 10%;
+    padding-left :1600px; 
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+h2{
+    font-style: italic;
+    text-decoration:underline;
+}
+.box-1{
+     border: 1px;
+     background-color:aqua;
+     padding: 50px;
+     margin: 100px;
+}
+.box-2{
+    border:1px;
+    background-color: aqua;
+    padding: 50px;
+    margin:100px;
+}
+table{
+    border: 1px solid;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+td {
+    border-bottom: 1px dotted;
+    border-left: 1px dotted;
+}
+th{
+    border-bottom: 1px dotted;
+    border-left: 1px dotted;
+}

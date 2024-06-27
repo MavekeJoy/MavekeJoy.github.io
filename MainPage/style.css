@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #530505;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    background-color: #4b0202;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer .footer-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
